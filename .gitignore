@@ -104,3 +104,9 @@ fabric.properties
 *.iml
 out
 gen
+
+# SonarQube
+.scannerwork
+
+# Outputs
+*.png
