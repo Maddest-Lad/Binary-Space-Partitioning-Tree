@@ -8,12 +8,12 @@ import java.util.Set;
 
 public class Main {
 
-  private static final int HEIGHT = 1000;
-  private static final int WIDTH = 1000;
+  private static final int HEIGHT = 200;
+  private static final int WIDTH = 200;
 
   public static void main(String[] args) {
     // Generate Our Tree Performing Splits for Each Iteration
-    TreeNode<Container> root = generateTree(100);
+    TreeNode<Container> root = generateTree(10);
     Set<TreeNode<Container>> leafNodes = root.getLeafNodes();
 
     // Convert The Rooms Into a 2D Array Representation
