@@ -110,3 +110,4 @@ gen
 
 # Outputs
 *.png
+.vscode/settings.json

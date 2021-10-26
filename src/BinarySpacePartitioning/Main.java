@@ -1,10 +1,9 @@
 package BinarySpacePartitioning;
 
+import SharedUtils.Utils;
+
 import java.util.LinkedList;
 import java.util.Set;
-
-import SharedUtils.SimpleImage;
-import SharedUtils.Utils;
 
 public class Main {
 
@@ -62,5 +61,4 @@ public class Main {
       System.out.println();
     }
   }
-
 }

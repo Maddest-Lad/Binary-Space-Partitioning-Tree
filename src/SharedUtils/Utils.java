@@ -26,7 +26,7 @@ public class Utils {
   public static void saveImage(String[][] arr) {
     SimpleImage image = new SimpleImage(arr.length, arr[0].length);
     for (int i = 0; i < arr.length; i++) {
-      for (int j = 0; j <  arr[0].length; j++) {
+      for (int j = 0; j < arr[0].length; j++) {
         if (arr[i][j].equals(Utils.OPEN)) {
           image.set(i, j, Color.black);
         } else {
@@ -34,7 +34,6 @@ public class Utils {
         }
       }
     }
-
     image.save("current.png");
   }
 }
