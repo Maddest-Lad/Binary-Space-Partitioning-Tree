@@ -1,4 +1,4 @@
-package Utils;
+package SharedUtils;
 
 import javax.imageio.ImageIO;
 import java.awt.*;

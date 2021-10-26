@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BinarySpacePartitioning</OriginalElement>
+  <nodes>
+    <node x="139.49999999999997" y="0.0">BinarySpacePartitioning.Utils</node>
+    <node x="128.24999999999997" y="531.0">BinarySpacePartitioning.Container</node>
+    <node x="145.03846153846152" y="795.0">BinarySpacePartitioning.Main</node>
+    <node x="245.99999999999997" y="275.0">BinarySpacePartitioning.Direction</node>
+    <node x="0.0" y="242.0">BinarySpacePartitioning.TreeNode</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BinarySpacePartitioning.Main" target="BinarySpacePartitioning.TreeNode" relationship="CREATE">
+      <point x="-66.0" y="-95.0" />
+      <point x="211.03846153846152" y="774.0" />
+      <point x="189.03846153846152" y="774.0" />
+      <point x="189.03846153846152" y="764.0" />
+      <point x="112.5" y="764.0" />
+      <point x="0.0" y="117.5" />
+    </edge>
+    <edge source="BinarySpacePartitioning.Container" target="BinarySpacePartitioning.TreeNode" relationship="CREATE">
+      <point x="-69.5" y="-106.0" />
+      <point x="197.74999999999997" y="509.0" />
+      <point x="112.5" y="509.0" />
+      <point x="0.0" y="117.5" />
+    </edge>
+    <edge source="BinarySpacePartitioning.TreeNode" target="BinarySpacePartitioning.Utils" relationship="DEPENDENCY">
+      <point x="0.0" y="-117.5" />
+      <point x="112.5" y="216.0" />
+      <point x="235.49999999999997" y="216.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="BinarySpacePartitioning.Main" target="BinarySpacePartitioning.Container" relationship="CREATE">
+      <point x="-66.0" y="-95.0" />
+      <point x="211.03846153846152" y="774.0" />
+      <point x="189.03846153846152" y="774.0" />
+      <point x="189.03846153846152" y="764.0" />
+      <point x="267.25" y="764.0" />
+      <point x="0.0" y="106.0" />
+    </edge>
+    <edge source="BinarySpacePartitioning.Container" target="BinarySpacePartitioning.Direction" relationship="DEPENDENCY">
+      <point x="69.5" y="-106.0" />
+      <point x="336.75" y="509.0" />
+      <point x="285.28846153846155" y="509.0" />
+      <point x="285.28846153846155" y="499.0" />
+      <point x="342.0" y="499.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="BinarySpacePartitioning.Container" target="BinarySpacePartitioning.Utils" relationship="DEPENDENCY">
+      <point x="69.5" y="-106.0" />
+      <point x="336.75" y="509.0" />
+      <point x="285.28846153846155" y="509.0" />
+      <point x="285.28846153846155" y="499.0" />
+      <point x="235.49999999999997" y="499.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="BinarySpacePartitioning.Main" target="BinarySpacePartitioning.Utils" relationship="DEPENDENCY">
+      <point x="66.0" y="-95.0" />
+      <point x="343.03846153846155" y="774.0" />
+      <point x="448.5" y="774.0" />
+      <point x="448.5" y="216.0" />
+      <point x="235.49999999999997" y="216.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.1639303482587064" showDependencies="true" x="-45.705172045308984" y="298.1979055353708" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

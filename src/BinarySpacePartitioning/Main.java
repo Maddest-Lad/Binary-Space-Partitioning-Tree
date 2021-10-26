@@ -1,19 +1,19 @@
 package BinarySpacePartitioning;
 
-import Utils.SimpleImage;
-
-import java.awt.*;
 import java.util.LinkedList;
 import java.util.Set;
 
+import SharedUtils.SimpleImage;
+import SharedUtils.Utils;
+
 public class Main {
 
-  private static final int HEIGHT = 200;
-  private static final int WIDTH = 200;
+  private static final int HEIGHT = 300;
+  private static final int WIDTH = 300;
 
   public static void main(String[] args) {
     // Generate Our Tree Performing Splits for Each Iteration
-    TreeNode<Container> root = generateTree(10);
+    TreeNode<Container> root = generateTree(20);
     Set<TreeNode<Container>> leafNodes = root.getLeafNodes();
 
     // Convert The Rooms Into a 2D Array Representation
@@ -36,7 +36,7 @@ public class Main {
     root.printTree();
 
     // Save Image
-    saveImage(arr);
+    SharedUtils.Utils.saveImage(arr);
   }
 
   private static TreeNode<Container> generateTree(int iterations) {
@@ -63,18 +63,4 @@ public class Main {
     }
   }
 
-  private static void saveImage(String[][] arr) {
-    SimpleImage image = new SimpleImage(WIDTH + 1, HEIGHT + 1);
-    for (int i = 0; i <= WIDTH; i++) {
-      for (int j = 0; j <= HEIGHT; j++) {
-        if (arr[i][j].equals(Utils.OPEN)) {
-          image.set(i, j, Color.black);
-        } else {
-          image.set(i, j, Color.green);
-        }
-      }
-    }
-
-    image.save("current.png");
-  }
 }

@@ -1,7 +1,9 @@
 package BinarySpacePartitioning;
 
-import static BinarySpacePartitioning.Utils.RATIO;
-import static BinarySpacePartitioning.Utils.WALL;
+import static SharedUtils.Utils.RATIO;
+import static SharedUtils.Utils.WALL;
+
+import SharedUtils.Utils;
 
 /**
  * @author Sam Harris
@@ -10,8 +12,6 @@ import static BinarySpacePartitioning.Utils.WALL;
  *     z axes.
  */
 public class Container {
-
-
 
   int left;
   int right;
